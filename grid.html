@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid html</title>
+    <style>
+        .grid-container {
+
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: 100px 50px 80px 100px;
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-areas: "Header Header Header"
+                                 "Navigation Navigation Navigation"
+                                 "Sidebar Main Main"
+                                 "Footer Footer Footer";
+        }
+        #first {
+            grid-area: Header;
+            color:aqua;
+            text-align: center;
+            background-color: blueviolet;
+        }
+        #second {
+            grid-area: Navigation;
+            color:yellow;
+            background-color: darkorange;
+        }
+        #third {
+            grid-area: Sidebar;
+            color:lime;
+            background-color: lightgreen;
+        }
+        #fourth {
+            grid-area: Main;
+            color:pink;
+            background-color: lightpink;
+        }   
+        #fifth {
+            grid-area: Footer;
+            color:orange;
+            background-color: lightcoral;
+        }
+        .grid-item {
+            border: 2px solid black;
+            background-color: lightgrey;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" id="first">Header</div>
+        <div class="grid-item" id="second">Navigation</div>
+        <div class="grid-item" id="third">Sidebar</div>
+        <div class="grid-item" id="fourth">Main</div>
+        <div class="grid-item" id="fifth">Footer</div>
+    </div>
+    
+</body>
+</html>
