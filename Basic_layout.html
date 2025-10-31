@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 7</title>
+
+    <style>
+
+        body {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .grid-container {
+            
+
+            display: grid;
+            width: 500px;
+            margin: 200px auto;
+            background-color: rgb(222, 238, 252);
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            grid-gap: auto;
+            grid-template-columns: auto auto;
+            grid-template-rows: 200px 150px 200px;
+            
+        }
+
+        .items {
+            width: 400px;
+            grid-column: 1 / span 1;
+            margin: 18px;
+        }
+
+        #first {
+            background-color: rgb(37, 148, 37);
+            border-radius: 10px;
+            padding: 14px;
+            margin: 20px;
+
+            img {
+                border-radius: 100px;
+                height: 120px;
+                width: 120px;
+                object-fit: cover;
+            }
+            
+        }
+
+        #second {
+            background-color: rgb(64, 77, 198);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px;
+
+        p {
+            color: goldenrod;
+            text-decoration: underline;
+
+            
+            
+        }
+
+        }
+        #third {
+
+            background-color: darkgoldenrod;
+            border-radius: 10px;
+            padding: 14px;
+        }
+
+        #fourth {
+
+            background-color: purple;
+            border-radius: 10px;
+            padding: 14px;
+        }
+
+        #fifth {
+            background-color: rgb(92, 3, 3);
+            border-radius: 5px;
+            padding: 10px;
+            
+            a {
+                color: yellow;
+                text-decoration: none;
+                margin: 10px;
+            }
+        }
+             
+
+
+        
+        
+
+       
+
+
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <div class="items" id="first">
+            <img src="tech.jpg" alt="Person wearing virtual reality headset interacting with holographic interface displaying futuristic data visualization and charts in purple and blue neon-lit environment" width="100px" border-radius="40px">
+        </div>
+        
+       
+    
+        <div id="second" class="items">
+            <b>Ayan Ahmad</b>
+            <br>
+            <p>Web Developer at Tech Company</p>
+            
+         </div>
+        <div id="third" class="items">
+        <p>Passionate about creating innovative Web solutions,<br>
+         that enhance user experience and functionality.<br>
+        Experience in HTML, CSS, JavaScript and <br>responsive design.</p>
+        </div>
+
+        <div id="fourth" class="items">
+            <p>Email: john.doe@example.com
+            <br>Phone: (123) 456-7890
+            </p>
+        </div>
+
+        <div id="fifth" class="items">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        
+
+       
+
+    </div>
+    
+</body>
+</html>
