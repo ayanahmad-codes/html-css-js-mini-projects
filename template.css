@@ -1,0 +1,81 @@
+#container {
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    margin: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+
+#box1 {
+    background-color: darkmagenta;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 10px;
+
+    
+img {
+    border-radius: 50px;
+    object-fit: cover;
+} 
+
+
+}
+
+#box2 {
+
+
+    background-color: rgb(60, 60, 195);
+    border-radius: 20px;
+     
+   
+    
+
+    b {
+        color: white;
+        
+    }
+
+    p {
+        color:goldenrod;
+
+
+    }
+}
+
+#box3 {
+
+    background-color: darkgreen;
+    border-radius: 25px;
+    color:rgb(251, 206, 6)
+    
+   
+
+}
+
+#contact {
+    background-color: deepskyblue;
+    border-radius: 25px;
+    margin: 5px;
+    p{
+        margin: 2px;
+        padding: 2px;
+       
+    }
+
+}
+
+#box4 {
+
+    background-color: deeppink;
+   
+    a {
+        text-decoration: none;
+        text-align: right;
+    }
+   
+}
