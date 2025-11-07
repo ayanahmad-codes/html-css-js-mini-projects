@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        .grid_container{
+            display: grid;
+            grid-template: 100px / 100px;
+            grid-area:auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            border: 5px solid balck;
+
+        }
+
+
+
+        .items{
+
+            border: 3px solid black;
+            padding: 20px;
+            
+
+        }                           
+    </style>
+</head>
+<body>
+
+    <div class="grid_container">
+        <header class="items"  id="header">Header</header>
+        <nav class="items" id="Navigation">Navigation</nav>
+        <layout class="items" id="leftside">leftside</layout>
+        <main class="items" id="main">main</main>
+        <aside class="items" id="rightside">rightside</aside>
+        <footer class="items" id="footer">footer</footer>
+    </div>
+    
+</body>
+</html>
