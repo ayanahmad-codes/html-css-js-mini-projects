@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // var age = 20;
+        // if(age > 18){
+        //     document.getElementById('demo').innerHTML = 'you are eligible to drive';
+
+        // }
+
+
+        // var person1 = 20;
+        // var person2 = 18;
+        // var person3 = 14;
+        // var result = 'person3 is elder'
+
+        // if(person1 > person2 && person1 > person3){
+        //     result = 'person1 is elder';
+        // }
+        // else if(person2 > person1 && person2 > person3){
+        //     result = 'person2 is elder';
+        // }
+        // document.getElementById('demo').innerHTML = result;
+
+        // var person1 = 20;
+        // var person2 = 18;
+        // var person3 = 14;
+        // var person4 = 13;
+        // var result = 'person4 is elder'
+
+        // if(person1 > person2 && person1 > person3 && person1 > person4){
+        //     result = 'person1 is elder';
+        // }
+        // else if(person2 > person1 && person2 > person3 && person2 > person4){
+        //     result = 'person2 is elder';
+        // }
+        // else if(person3 > person1 && person3 > person2 && person3 > person4){
+        //     result = 'person3 is elder';
+        // }   
+        // else if(person4 > person1 && person4 > person2 && person4 > person3){
+        //     result = 'person4 is elder';
+        //     document.getElementById('demo').innerHTML = result;
+        // }
+             var day = parseInt(prompt("enter the day value: "));
+             var dayname;
+        // var day = 5;
+        // dayname = 'invalid day value';
+
+        switch(day){
+            case 1:
+            dayname = 'Monday';
+            break;
+            
+            case 2:
+            dayname = 'Tuesday';
+            break;
+
+            case 3:
+            dayname = 'Wednesday';
+            break;
+            case 4:
+            dayname = 'Thursday';
+            break;
+
+            case 5:
+            dayname = 'Friday';
+            break;
+
+            case 6:
+            dayname = 'Saturday';
+            break;
+            case 7:
+                dayname = 'Sunday';
+                break;
+            default:
+            dayname = 'invalid day value';
+            break;
+            
+           
+
+        }
+         document.getElementById('demo').innerHTML = dayname;
+
+    </script>
+
+   
+    
+</body>
+</html>
