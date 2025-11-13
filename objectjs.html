@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // let name={
+        //     firstname:"ayan",
+        //     lastname:"ahmad"
+        // }
+        // name.number=123;
+        // delete name.lastname;
+        // console.log(name["firstname"]);
+    //    let name={
+    //         firstname:"ayan",
+    //         lastname:"ahmad",
+    //         marks:{
+    //         math:15,
+    //         science:20
+    //     }
+    // }
+
+    // let name={
+    //     firstname:"Ayan",
+    //     lastname:"Ahmad",
+    //     marks:{
+    //         CA1:25,
+    //         CA2:30,
+    //         ece:20,
+    //         python:29
+    //     }
+    // }
+
+    // let name={
+    //     firstname:"sayan",
+    //     lastname:"reza",
+    //     fullname:function(){
+    //         return this.firstname + ' ' + this.lastname;
+    //     }
+    // }
+        // console.log(name.fullname());
+
+        let num={
+            num1:12,
+            num2:2,
+            add:function(){
+                return this.num1 + this.num2;
+                
+
+            }
+        }
+
+        console.log(num.add())
+
+        let num1={
+            num3:33,
+            num4:23,
+            sub:function(){
+                return this.num3 - this.num4;
+
+            }
+        }
+        console.log(num1.sub())
+
+        let num3={
+            num5:24,
+            num6:23,
+            multiplication:function(){
+                return this.num5 * this.num6;
+            }
+        
+        }
+        console.log(num3.multiplication());
+        
+        
+
+
+    </script>
+    
+</body>
+</html>
